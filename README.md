@@ -1,8 +1,12 @@
 ## Welcome to Digital Image TimeStamping Projects
 
-You can use the [editor on GitHub](https://github.com/stegotiff/docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Digital image processing with tamper-proof timestamp stegano supports assertions of proof that a digital image existed before a particular time with integrity. I designed digital shadow concept to protect and proof that digital image is not tampered from which created first time.
+As current, there is no solution for proof of existence and integrity for digital image. Digital watermarking technology is focused on protect owner licenses but not integrity with proof of existence.
+With this solution, you can solve the legal compliance issue for scanning paper document, photo. As tamper-proof timestamping image, photo will be compromised way to digital transformation.
+My solution for image integrity has unique way of image processing techniques.
+There are two step for image processing to tamper-proof and existence-proof.
+First step. Digital Shadow model will calculate each digital image's unique shadow data(footprint of image) which purpose to provide zero knowledge proof. I design zk-SNARKS method applies to digital image.
+Second step. Steganography with timestamp/digital signed token data into digital image and detect method. Unlike almost competitors using one-way function(hash) technique, this solution use inverse function to proof of integrity.
 
 ### Markdown
 
